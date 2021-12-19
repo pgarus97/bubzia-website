@@ -1,0 +1,1 @@
+ReactPlayer API https://github.com/CookPete/react-player#props
