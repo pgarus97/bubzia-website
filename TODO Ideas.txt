@@ -1,0 +1,29 @@
+//TODO Pages
+
+Homepage: stream embed live or last broadcast, schedule, info , upcoming events
+
+Twitch: available emotes, schedule , descriptions of redemptions, current projects, commands(?)
+
+Youtube: showcase different YT Playlist and series + descriptions (blindfolded speedruns list, BNS, SM64 Tutorial Series etc.)
+
+Speedruns: similar to blindfolded gaming , search, single speedrun pages with detailed description, strat links
+
+Media Page: multiple tabs with marathon runs, podcasts , articles
+
+Strats: organized strat page /search from github links //maybe inside speedruns as attachement / tab
+
+Support: patreon, streamelements, youtube sub, twitch sub etc.
+
+Contact: just contact information, discord, email , twitter
+
+About me: Personal information about me //below homepage?
+
+//TODO Future plans
+
+Interactive Stream elements: Stats API, redemptions, chat% speedrun list, available emotes, schedule
+
+Shop
+
+//TODO General
+
+Google results,

@@ -14,8 +14,33 @@ const Navbar = () => {
         },
         {
             id:2,
-            path: "/about",
-            text:"About",
+            path: "/speedruns",
+            text:"Speedruns",
+        },
+        {
+            id:3,
+            path: "/twitch",
+            text:"Twitch",
+        },
+        {
+            id:4,
+            path: "/youtube",
+            text:"Youtube",
+        },
+        {
+            id:5,
+            path: "/media",
+            text:"Media",
+        },
+        {
+            id:6,
+            path: "/support",
+            text:"Support",
+        },
+        {
+            id:7,
+            path: "/contact",
+            text:"Contact",
         },
     ]
 
@@ -24,7 +49,7 @@ const Navbar = () => {
     //dynamically add classname for css
     return (
         <nav className="navBar">
-            <ul className={`menuNav`}>
+            <ul className={`menuNav showMenu`}>
                 {links.map(link => {
                     return(
                       <li key={link.id}>
