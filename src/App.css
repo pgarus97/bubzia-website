@@ -16,37 +16,27 @@ body {
 /* sidebar Nav */
 
 .navBar {
-  position: relative;
+  width: 100%;
 }
 
 .navButton {
   cursor: pointer;
-  background: transparent;
-  border: solid fuchsia;
+  background: black;
+  border: groove fuchsia;
+  border-radius: 10px;
+  list-style-type: none;
 }
 
 .menuNav {
-  overflow-y: scroll;
   list-style: none;
-  position: fixed;
-  top: 0;
+  display: flex;
+  position: relative;
   background: transparent;
-  left: 0;
-  bottom: 0;
-  height: 100%;
-  width: 0;
   overflow: hidden;
-  max-width: 150px;
-  z-index: 9;
+  z-index: 5;
 
 }
 
-.menuNav.showMenu {
-  width: 50%;
-  color: white;
-  background: transparent;
-
-}
 
 /* a styles links */
 a {
@@ -70,12 +60,32 @@ a {
 
 .maincenter {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   max-width: 600px;
   margin: 0 auto;
   background: transparent;
+
+}
+
+.mainplayers {
+  -webkit-text-stroke: 1.5px black;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.aboutme {
+  margin-top: 3%;
+  text-align: center;
+  position: center;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  -webkit-text-stroke: 2px black;
+  font-size: 150%;
 }
 
 html {
@@ -87,4 +97,12 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.header {
+  background: black;
+  position: relative;
+  border: black;
+  border-radius: 10px;
+  border-style: groove;
 }

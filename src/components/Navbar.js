@@ -49,7 +49,7 @@ const Navbar = () => {
     //dynamically add classname for css
     return (
         <nav className="navBar">
-            <ul className={`menuNav showMenu`}>
+            <ul className={`menuNav`}>
                 {links.map(link => {
                     return(
                       <li className="navButton" key={link.id}>
