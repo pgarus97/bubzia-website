@@ -1,1 +1,2 @@
 ReactPlayer API https://github.com/CookPete/react-player#props
+npm install react-router-dom@5.1.2 --save

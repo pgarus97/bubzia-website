@@ -25,6 +25,7 @@ body {
   border: groove fuchsia;
   border-radius: 10px;
   list-style-type: none;
+
 }
 
 .menuNav {
@@ -45,6 +46,16 @@ a {
   text-decoration: none;
   color: dodgerblue;
   text-transform: uppercase;
+  font-weight: bold;
+  background: transparent;
+}
+
+a.small{
+  display: block;
+  padding: 0px 0px;
+  text-decoration: none;
+  color: dodgerblue;
+  text-transform: none;
   font-weight: bold;
   background: transparent;
 }
@@ -80,12 +91,14 @@ a {
 .aboutme {
   margin-top: 3%;
   text-align: center;
-  position: center;
   justify-content: center;
   align-items: center;
   background: transparent;
   -webkit-text-stroke: 2px black;
   font-size: 150%;
+  padding-bottom: 0px;
+  ;
+  
 }
 
 html {
@@ -105,4 +118,12 @@ html {
   border: black;
   border-radius: 10px;
   border-style: groove;
+}
+
+.text {
+  color: white;
+  font-size: 100%;
+  background-size: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-text-stroke: 0.5px black;
 }

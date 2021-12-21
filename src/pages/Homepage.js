@@ -42,7 +42,23 @@ const Homepage = () => {
                         <div className="aboutme">
                             <h1>About me</h1>
                             <div className="text">
+                                Blindfolded Speedrunner since July 2017, Moderator of the blindfolded speedrunning community, Twitch Partner.<br/><br/>
 
+                                My hobby consists of speedrunning many different games without looking by creating clever strategies and memorizing them.<br/>
+                                I livestream all of my practice and runs on Twitch and produce various Youtube videos about this hobby.<br/>
+                                Furthermore, I love to participate in many speedrun marathons all around the world to showcase blindfolded speedrunning and open it up to the public!<br/><br/>
+
+                                Stream-Schedule: Monday, Tuesday, Thursday, Friday ~ 1pm-5pm CET<br/><br/>
+
+                                If you enjoy my content, please check out my social media accounts!<br/>
+                                <br/>
+                                <a className="small" href="https://www.twitch.tv/bubzia" target="_blank" rel="noreferrer">Twitch</a><br/>
+                                <a className="small" href="https://www.youtube.com/bubzia" target="_blank" rel="noreferrer">Youtube</a><br/>
+                                <a className="small" href="https://twitter.com/Bubzia1" target="_blank" rel="noreferrer">Twitter</a><br/>
+                                <a className="small" href="https://patreon.com/Bubzia" target="_blank" rel="noreferrer">Patreon</a><br/>
+                                <a className="small" href="https://discord.gg/D7yTBaXxTW" target="_blank" rel="noreferrer">Discord</a><br/>
+
+                                For Business-Inquiries: <a href="mailto:yazek.twitch@gmail.com" target="_blank">yazek.twitch@gmail.com</a><br/>
                             </div>
                         </div>
                 </Route>

@@ -1,1 +1,3 @@
 top header with Bubzia- Blindfolded Speedruns see BGcom
+homepage footer copyright etc
+embeds dynamic browser
