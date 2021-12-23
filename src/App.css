@@ -35,12 +35,34 @@ body {
   background: transparent;
   overflow: hidden;
   z-index: 5;
+  text-align: center;
 
 }
 
 
-/* a styles links */
 a {
+  display: inline-block;
+  color: dodgerblue;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: transparent;
+
+}
+
+li {
+  display: inline-block
+}
+
+ul {
+  text-align: center;
+}
+
+/* a styles links */
+.oldLinka {
   display: block;
   padding: 10px 20px;
   text-decoration: none;
@@ -48,25 +70,16 @@ a {
   text-transform: uppercase;
   font-weight: bold;
   background: transparent;
-}
+  -webkit-text-stroke: 0.5px black;
 
-a.small{
-  display: block;
-  padding: 0px 0px;
-  text-decoration: none;
-  color: dodgerblue;
-  text-transform: none;
-  font-weight: bold;
-  background: transparent;
 }
 
 .menuNav li:first-child {
-  margin-top: 0rem;
+  margin-top: 0;
 }
 
 .active-link {
   color: orangered;
-  text-decoration: underline;
 }
 
 .maincenter {
@@ -75,17 +88,16 @@ a.small{
   justify-content: center;
   align-items: center;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 5% auto;
   background: transparent;
 
 }
 
 .mainplayers {
   -webkit-text-stroke: 1.5px black;
-  margin-top: 50px;
-  margin-bottom: 30px;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 5%;
+  margin-right: 5%;
+
 }
 
 .aboutme {
@@ -96,9 +108,15 @@ a.small{
   background: transparent;
   -webkit-text-stroke: 2px black;
   font-size: 150%;
-  padding-bottom: 0px;
-  ;
-  
+  padding-bottom: 0;
+}
+
+.text {
+  color: white;
+  font-size: 100%;
+  background-size: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-text-stroke: 0.5px black;
 }
 
 html {

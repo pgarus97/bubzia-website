@@ -13,6 +13,9 @@ import TopHeader from "../components/TopHeader";
 import ReactPlayer from "react-player";
 import {Route, Switch} from "react-router-dom";
 
+import { BsDiscord, BsTwitter, BsTwitch, BsYoutube } from 'react-icons/bs';
+import { FaPatreon } from 'react-icons/fa'
+
 
 
 const Homepage = () => {
@@ -34,7 +37,7 @@ const Homepage = () => {
                             </div>
                             <div className="mainplayers">
                                 <h1>Most recent Youtube Video:</h1>
-                                <iframe width="600" height="340"
+                                <iframe width="620" height="360" playing={true}
                                         src="http://www.youtube.com/embed/videoseries?list=UUZVaxoDFZkOhTw3MDG8V8dQ"
                                         frameBorder="0" allowFullScreen></iframe>
                             </div>
@@ -51,12 +54,14 @@ const Homepage = () => {
                                 Stream-Schedule: Monday, Tuesday, Thursday, Friday ~ 1pm-5pm CET<br/><br/>
 
                                 If you enjoy my content, please check out my social media accounts!<br/>
-                                <br/>
-                                <a className="small" href="https://www.twitch.tv/bubzia" target="_blank" rel="noreferrer">Twitch</a><br/>
-                                <a className="small" href="https://www.youtube.com/bubzia" target="_blank" rel="noreferrer">Youtube</a><br/>
-                                <a className="small" href="https://twitter.com/Bubzia1" target="_blank" rel="noreferrer">Twitter</a><br/>
-                                <a className="small" href="https://patreon.com/Bubzia" target="_blank" rel="noreferrer">Patreon</a><br/>
-                                <a className="small" href="https://discord.gg/D7yTBaXxTW" target="_blank" rel="noreferrer">Discord</a><br/>
+
+                                <ul>
+                                    <li><a  href="https://www.twitch.tv/bubzia" target="_blank" rel="noreferrer"><BsTwitch/></a><br/></li>
+                                    <li><a  href="https://www.youtube.com/bubzia" target="_blank" rel="noreferrer"><BsYoutube/></a><br/></li>
+                                    <li><a  href="https://twitter.com/Bubzia1" target="_blank" rel="noreferrer"><BsTwitter/></a><br/></li>
+                                    <li><a  href="https://patreon.com/Bubzia" target="_blank" rel="noreferrer"><FaPatreon/></a><br/></li>
+                                    <li><a  href="https://discord.gg/D7yTBaXxTW" target="_blank" rel="noreferrer"><BsDiscord/></a><br/></li>
+                                </ul>
 
                                 For Business-Inquiries: <a href="mailto:yazek.twitch@gmail.com" target="_blank">yazek.twitch@gmail.com</a><br/>
                             </div>
