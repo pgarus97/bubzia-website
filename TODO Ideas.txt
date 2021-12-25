@@ -8,7 +8,7 @@ Youtube: showcase different YT Playlist and series + descriptions (blindfolded s
 
 Speedruns: similar to blindfolded gaming , search, single speedrun pages with detailed description, strat links
 
-Media Page: multiple tabs with marathon runs, podcasts , articles
+Media Page: multiple tabs with marathon runs ( on speedrun page?), podcasts , articles
 
 Strats: organized strat page /search from github links //maybe inside speedruns as attachement / tab
 
