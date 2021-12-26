@@ -1,3 +1,5 @@
 top header with Bubzia- Blindfolded Speedruns see BGcom
 homepage footer copyright etc
 embeds dynamic browser size, flow? flex?
+marathon runs left selection bar
+fix last item on marathon runs text displacement

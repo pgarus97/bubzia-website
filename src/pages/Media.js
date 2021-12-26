@@ -12,6 +12,7 @@ import Contact from "./Contact";
 import NotMatch from "./NotMatch";
 import Podcasts from "../components/Podcasts";
 import Articles from "../components/Articles";
+import MarathonRuns from "../components/MarathonRuns";
 
 const Media = () => {
     return (
@@ -21,7 +22,10 @@ const Media = () => {
             </div>
             <Switch>
                 <Route exact path="/media/">
-                    <Podcasts/>
+                    <MarathonRuns />
+                </Route>
+                <Route path="/media/marathons">
+                    <MarathonRuns />
                 </Route>
                 <Route path="/media/podcasts">
                     <Podcasts />

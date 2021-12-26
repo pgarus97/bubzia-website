@@ -55,12 +55,12 @@ const Homepage = () => {
 
                                 If you enjoy my content, please check out my social media accounts!<br/>
 
-                                <ul>
-                                    <li><a  href="https://www.twitch.tv/bubzia" target="_blank" rel="noreferrer"><BsTwitch/></a><br/></li>
-                                    <li><a  href="https://www.youtube.com/bubzia" target="_blank" rel="noreferrer"><BsYoutube/></a><br/></li>
-                                    <li><a  href="https://twitter.com/Bubzia1" target="_blank" rel="noreferrer"><BsTwitter/></a><br/></li>
-                                    <li><a  href="https://patreon.com/Bubzia" target="_blank" rel="noreferrer"><FaPatreon/></a><br/></li>
-                                    <li><a  href="https://discord.gg/D7yTBaXxTW" target="_blank" rel="noreferrer"><BsDiscord/></a><br/></li>
+                                <ul classname="homepagelinks">
+                                    <li><a  href="https://www.twitch.tv/bubzia" target="_blank" rel="noreferrer"><BsTwitch classname="icon"/></a><br/></li>
+                                    <li><a  href="https://www.youtube.com/bubzia" target="_blank" rel="noreferrer"><BsYoutube classname="icon"/></a><br/></li>
+                                    <li><a  href="https://twitter.com/Bubzia1" target="_blank" rel="noreferrer"><BsTwitter classname="icon"/></a><br/></li>
+                                    <li><a  href="https://patreon.com/Bubzia" target="_blank" rel="noreferrer"><FaPatreon classname="icon"/></a><br/></li>
+                                    <li><a  href="https://discord.gg/D7yTBaXxTW" target="_blank" rel="noreferrer"><BsDiscord classname="icon"/></a><br/></li>
                                 </ul>
 
                                 For Business-Inquiries: <a href="mailto:yazek.twitch@gmail.com" target="_blank">yazek.twitch@gmail.com</a><br/>

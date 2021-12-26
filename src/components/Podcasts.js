@@ -33,5 +33,4 @@ const Podcasts = () => {
             </ul>
     )
 }
-
 export default Podcasts

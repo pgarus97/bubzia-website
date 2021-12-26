@@ -54,7 +54,12 @@ a {
 }
 
 li {
-  display: inline-block
+  display: inline-block;
+}
+
+li svg {
+  font-size: 50px;
+  margin-top: 3px;
 }
 
 ul {
@@ -103,10 +108,12 @@ ul {
 }
 
 .mainplayers {
-  -webkit-text-stroke: 1.5px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-left: 5%;
   margin-right: 5%;
-
 }
 
 .aboutme {
@@ -153,4 +160,10 @@ html {
   background-size: 20px;
   background-color: rgba(0, 0, 0, 0.5);
   -webkit-text-stroke: 0.5px black;
+}
+
+.cleanfont {
+  color: white;
+  font-size: 100%;
+  -webkit-text-stroke: 0.2px black;
 }
