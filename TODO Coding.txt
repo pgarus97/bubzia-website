@@ -1,5 +1,10 @@
-top header with Bubzia- Blindfolded Speedruns see BGcom
 homepage footer copyright etc
-embeds dynamic browser size, flow? flex?
+embeds dynamic browser size, flow? flex? frontpage important
 marathon runs left selection bar
-fix last item on marathon runs text displacement
+general left selection bar for speedruns, strats, marathon runs : how should it look?
+-> filter instead of selection bar? : game title, genre, year, etc. whatever is in the array as attributes
+-> save all runs / podcasts / articles / strats in an array and do things dynamically instead of adding new pages
+check out my stream frontpage black background text
+support page : donation button img, same with patreon etc., text too dark and too long
+
+IMPORTANT: MarathonNavButton does only work one direction: why no pointer and onClick when once clicked?

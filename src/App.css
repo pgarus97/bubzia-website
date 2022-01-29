@@ -39,6 +39,33 @@ body {
 
 }
 
+.item {
+  font-size: 1.2rem;
+  list-style-type: none;
+  padding: 17px 0px;
+  border-bottom: 1px solid #eaeaea;
+  display: list-item;
+  cursor: pointer;
+}
+
+.marathonNav {
+  list-style:none;
+  position: absolute;
+  overflow: hidden;
+  text-align: left;
+  padding-top: 5%;
+}
+
+.marathonNav.showMenu {
+  display: none;
+}
+
+.dropMenu {
+  float: left;
+  position: relative;
+  padding-bottom: 10%;
+
+}
 
 a {
   display: inline-block;
@@ -95,6 +122,14 @@ ul {
   max-width: 600px;
   margin: 5% auto;
   background: transparent;
+}
+
+.marathoncenter {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+
 }
 
 .mediacenter {
