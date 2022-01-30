@@ -223,6 +223,8 @@ html {
 
 .cleanfont {
   color: white;
-  font-size: 100%;
+  font-size: 120%;
   -webkit-text-stroke: 0.2px black;
+  background-color: rgba(0, 0, 0, 0.8);
+
 }
