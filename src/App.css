@@ -4,6 +4,8 @@
   padding: 0;
   background: transparent;
   color: white;
+  user-select: none;
+
 }
 
 body {
@@ -46,6 +48,28 @@ body {
   border-bottom: 1px solid #eaeaea;
   display: list-item;
   cursor: pointer;
+  text-align: left;
+  user-select: none;
+}
+
+.item:hover{
+  background-color: dodgerblue;
+}
+
+.item.active{
+  background-color: fuchsia;
+}
+
+.sidebarTop {
+  font-size: 1.8rem;
+  list-style-type: none;
+  padding: 17px 0px;
+  display: list-item;
+  text-align: center;
+  user-select: none;
+
+
+
 }
 
 .marathonNav {

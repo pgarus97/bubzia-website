@@ -32,8 +32,6 @@ const MarathonRuns = () => {
 
     const selectDropDown = name => {
         setDropName(name);
-        closeMenu();
-
     }
 
     const [navbarOpen, setNavbarOpen] = useState(true);
@@ -70,26 +68,18 @@ const MarathonRuns = () => {
 
     return (
         <div className="marathoncenter">
-            <nav style={{ paddingLeft:"5%" }}>
-                <button style={{ paddingRight:"1%" , position:"absolute", cursor:"pointer"}} onClick={() => handleToggle()}>
-                    {
-                    <div style={{display:"flex", alignItems: "center"}}>
-                        <RiArrowDropDownLine style={{ color: "#7b7b7b", width: "50px", height: "50px" }}/>
-                        <p style={{ float: "right",  }}>{dropName}</p>
-                    </div>
-                }</button>
-                <ul className={`marathonNav ${navbarOpen ? " showMenu" : ""}`}>
+            <nav style={{ paddingLeft:"10%", position:"absolute" }}>
+                <ul className={`marathonNav.showMenu"`}>
+                    <li className="sidebarTop">Selection</li>
                     {dropOptions.map(link => {
                         return(
-                            <li className="item" key={link.id}>
+                            <li className={`item ${dropName==link.text ? " active" : ""}`} key={link.id}>
                                 <span
                                     style={{marginRight:"15px"}}
                                     onClick={() => selectDropDown(link.text)}
                                 >
                                     {link.text}
                                 </span>
-
-
                             </li>
                         )
                     })}
