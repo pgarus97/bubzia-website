@@ -6,3 +6,9 @@ general left selection bar for speedruns, strats, marathon runs : how should it 
 check out my stream frontpage black background text
 support page : donation button img, same with patreon etc., text too dark and too long
 Do something with font of topheader Bubzia - Blindfolded Speedruns
+
+convert input for marathon runs etc, in json format outside of source code
+add sidemenu to articles (interview, article, ...)
+for now delete Youtube Tab, add selection like marathon, articles etc. to Twitch/ Speedruns Page
+podcast : spotify / youtube sidebar
+article: interview / news sidebar
