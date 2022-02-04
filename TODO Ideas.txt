@@ -7,6 +7,7 @@ Twitch: available emotes, schedule , descriptions of redemptions, current projec
 Youtube: showcase different YT Playlist and series + descriptions (blindfolded speedruns list, BNS, SM64 Tutorial Series etc.)
 
 Speedruns: similar to blindfolded gaming , search, single speedrun pages with detailed description, strat links
+Next: Speedrun: Personal Bests (like marathon runs with little info , time and desc), Goals, (in future: History with all runs old PBs etc.)
 
 Media Page: multiple tabs with marathon runs ( on speedrun page?), podcasts , articles
 

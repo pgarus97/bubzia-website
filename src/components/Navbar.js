@@ -14,7 +14,7 @@ const Navbar = () => {
         },
         {
             id:2,
-            path: "/speedruns",
+            path: "/speedrun",
             text:"Speedruns",
         },
         {
@@ -24,24 +24,24 @@ const Navbar = () => {
         },
         {
             id:4,
+            path: "/strats",
+            text:"Strats",
+        },
+        {
+            id:5,
             path: "/youtube",
             text:"Youtube",
         },
         {
-            id:5,
+            id:6,
             path: "/media",
             text:"Media",
         },
         {
-            id:6,
+            id:7,
             path: "/support",
             text:"Support",
-        },
-        {
-            id:7,
-            path: "/contact",
-            text:"Contact",
-        },
+        }
     ]
 
 

@@ -67,7 +67,7 @@ const Homepage = () => {
                             </div>
                         </div>
                 </Route>
-                <Route path="/speedruns">
+                <Route path="/speedrun">
                     <Speedruns />
                 </Route>
                 <Route path="/twitch">

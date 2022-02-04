@@ -2,23 +2,18 @@ import React from "react";
 import { NavLink } from "react-router-dom"
 
 
-const Mediabar = () => {
+const SRbar = () => {
     //can add more links if needed
     const links = [
         {
             id:1,
-            path: "/media/marathons",
-            text:"Marathon Runs",
+            path: "/speedrun/pbs",
+            text:"Personal Bests",
         },
         {
             id:2,
-            path: "/media/podcasts",
-            text:"Podcasts",
-        },
-        {
-            id:3,
-            path: "/media/articles",
-            text:"Articles",
+            path: "/speedrun/goals",
+            text:"Goals",
         }
     ]
 
@@ -44,4 +39,4 @@ const Mediabar = () => {
     )
 }
 
-export default Mediabar
+export default SRbar
