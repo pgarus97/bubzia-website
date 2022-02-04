@@ -49,7 +49,7 @@ body {
   display: list-item;
   cursor: pointer;
   text-align: left;
-  user-select: none;
+  width: 205px
 }
 
 .item:hover{
@@ -184,6 +184,7 @@ ul {
 
 .mainplayers {
   display: flex;
+  position:center;
   flex-direction: column;
   justify-content: center;
   align-items: center;

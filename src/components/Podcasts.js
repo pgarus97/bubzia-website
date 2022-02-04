@@ -65,7 +65,7 @@ const Podcasts = () => {
     //dynamically add classname for css
     return (
         <div className="marathoncenter">
-            <nav style={{ paddingLeft:"10%", position:"absolute" }}>
+            <nav style={{ paddingLeft:"10%", position:"absolute", left:"-100px" }}>
                 <ul className={`marathonNav.showMenu"`}>
                     <li className="sidebarTop">Selection</li>
                     {dropOptions.map(link => {
