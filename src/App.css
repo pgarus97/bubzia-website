@@ -30,6 +30,7 @@ body {
 
 }
 
+
 .menuNav {
   list-style: none;
   display: flex;
@@ -102,6 +103,10 @@ a.topbar {
   font-weight: bold;
   background: transparent;}
 
+.topbar:hover{
+  color: orangered;
+}
+
 a {
   display: inline-block;
   color: dodgerblue;
@@ -170,7 +175,15 @@ ul {
   margin-top: 0;
 }
 
-.active-link {
+a.active-link {
+  display: inline-block;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: transparent;
   color: orangered;
 }
 
@@ -224,7 +237,6 @@ ul {
 
 }
 
-
 .AboutText {
   color: white;
   font-size: 100%;
@@ -256,6 +268,8 @@ html {
   font-size: 100%;
   background-size: 20px;
   background-color: rgba(0, 0, 0, 0.5);
+  -webkit-text-stroke: 0px black;
+
 }
 
 .cleanfont {

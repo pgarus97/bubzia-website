@@ -70,6 +70,9 @@ const Homepage = () => {
                 <Route path="/speedrun">
                     <Speedruns />
                 </Route>
+                <Route path="/strats">
+                    <Strats />
+                </Route>
                 <Route path="/twitch">
                     <Twitch />
                 </Route>

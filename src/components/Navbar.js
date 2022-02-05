@@ -14,18 +14,18 @@ const Navbar = () => {
         },
         {
             id:2,
-            path: "/speedrun",
+            path: "/speedrun/pbs",
             text:"Speedruns",
         },
         {
             id:3,
-            path: "/twitch",
-            text:"Twitch",
+            path: "/strats",
+            text:"Strats",
         },
         {
             id:4,
-            path: "/strats",
-            text:"Strats",
+            path: "/twitch",
+            text:"Twitch",
         },
         {
             id:5,
@@ -34,7 +34,7 @@ const Navbar = () => {
         },
         {
             id:6,
-            path: "/media",
+            path: "/media/marathons",
             text:"Media",
         },
         {
@@ -53,10 +53,10 @@ const Navbar = () => {
                 {links.map(link => {
                     return(
                       <li className="navButton" key={link.id}>
-                      <NavLink          className="topbar"
-                                    to={link.path}
-                                   activeClassName="active-link"
-                                   exact>
+                      <NavLink     className="topbar"
+                                   to={link.path}
+                                   activeClassName={`${link.path=="/" ? "" : "active-link"}`}
+                                   >
                               {link.text}
                           </NavLink>
                       </li>
