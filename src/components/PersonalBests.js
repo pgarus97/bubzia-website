@@ -44,70 +44,70 @@ const PersonalBests = () => {
     const links = [
         {
             id:1,
-            url: "https://www.youtube.com/watch?v=4pfrkdpWRaQ",
-            text:"Blindfolded Super Mario 64 - 70 Star at RTAinJapan Winter 2021",
+            url: "https://www.youtube.com/watch?v=oMU8sEqopC0",
+            text:"Blindfolded Super Mario 64 - 70 Star",
+            time:"1:44:28",
             game: "Super Mario 64",
         },{
             id:2,
-            url:"https://www.youtube.com/watch?v=rKnDj3wMNik",
-            text:"Blindfolded Super Mario 64 - 70 Star at SGDQ2021",
+            url:"https://www.youtube.com/watch?v=jIJy6fEIS28",
+            text:"Blindfolded Super Mario 64 - 16 Star",
+            time:"28:16",
             game: "Super Mario 64",
-        },
-        {
+        },{
             id:3,
-            url: "https://www.youtube.com/watch?v=ZcOd82Q6-oU",
-            text:"Blindfolded Super Mario 64 - 16 Star at AGDQ2021",
+            url: "https://www.youtube.com/watch?v=vxqsw4JFF0I",
+            text:"Blindfolded Super Mario 64 - 1 Star",
+            time:"24:16",
             game: "Super Mario 64",
-        },
-        {
+        },{
             id:4,
-            url: "https://www.youtube.com/watch?v=GKq2aIpIDQM",
-            text:"Blindfolded Smash 64 - Break the Targets at SGDQ2020",
-            game: "Smash 64",
-        },
-        {
-            id:5,
-            url: "https://www.youtube.com/watch?v=XHNUJ63oJY0",
-            text:"Blindfolded Deltarune - any% at RTAinJapan Winter 2019",
-            game: "Deltarune",
-        },
-        {
-            id:6,
-            url: "https://www.youtube.com/watch?v=M9LzvBr26b4",
-            text:"Blindfolded Metroid: Fusion - 100% at ESACoronaRelief",
-            game: "Metroid: Fusion",
-        },
-        {
-            id:7,
-            url: "https://www.youtube.com/watch?v=2oJwrnziHkU",
-            text:"Blindfolded Metroid: Zero Mission - any% at ESASummerOnline",
-            game: "Metroid: Zero Mission",
-        },
-        {
-            id:8,
-            url: "https://www.youtube.com/watch?v=jQMbfm75Uf4",
-            text:"Blindfolded Super Mario 64 - 16 Star at ESAWinter21",
+            url: "https://www.youtube.com/watch?v=bHCEg76icEU",
+            text:"Blindfolded Super Mario 64 - 50 Star",
+            time:"1:06:58",
             game: "Super Mario 64",
-        },
-        {
-            id:9,
-            url: "https://www.youtube.com/watch?v=-vzFCPD1IIA",
-            text:"Blindfolded Deltarune - any% at ESAWinter21",
-            game: "Deltarune",
-        },
-        {
-            id:10,
-            url: "https://www.youtube.com/watch?v=WS3zqibbG3g",
-            text:"Blindfolded Smash 64 - Break the Targets at ESASummerOnline",
+        },{
+            id:5,
+            url: "https://www.youtube.com/watch?v=PEgcXK3_cMc",
+            text:"Blindfolded Super Mario 64 - 31 Star",
+            time:"46:08",
+            game: "Super Mario 64",
+        },{
+            id:6,
+            url: "https://www.youtube.com/watch?v=Ia0xUE8ff4A",
+            text:"Blindfolded Super Mario 64 - Softlock%",
+            time:"1:59",
+            game: "Super Mario 64",
+        },{
+            id:7,
+            url: "https://www.youtube.com/watch?v=ueVFXwcXMZw",
+            text:"Blindfolded Scrooge 64 - 1 Star",
+            time:"1:47",
+            game: "SM64 Romhacks",
+        },{
+            id:8,
+            url: "https://www.youtube.com/watch?v=jo5GFKFEBv4",
+            text:"Blindfolded Smash 64 - Break the Targets (All Characters)",
+            time:"6:20",
             game: "Smash 64",
-        },
-        {
+        },{
+            id:9,
+            url: "https://www.youtube.com/watch?v=Bzt44ZglQ6M",
+            text:"Blindfolded Ocarina of Time - any%",
+            time:"50:32",
+            game: "Ocarina of Time",
+        },{
+            id:10,
+            url: "https://www.youtube.com/watch?v=lWWMBsy0bZs",
+            text:"Blindfolded Metroid: Fusion - 100%",
+            time:"2:32:41",
+            game: "Metroid: Fusion",
+        },{
             id:11,
             url: "https://www.youtube.com/watch?v=TzLq21_O3QM",
             text:"Blindfolded Super Mario 64 - 16 Star at GMM",
             game: "Super Mario 64",
-        },
-        {
+        },{
             id:12,
             url: "https://www.youtube.com/watch?v=mJ7tKLE93_o",
             text:"Blindfolded Metroid: Zero Mission - any% at Metroid Marathon 2019",
@@ -180,7 +180,7 @@ const PersonalBests = () => {
                     if (dropName === link.game){
                         return(
                             <li key={link.id}>
-                                <h4 className="cleanfont">{link.text}</h4>
+                                <h4 className="cleanfont">{link.text} in {link.time}</h4>
                                 <ReactPlayer url={link.url} controls="true"/>
                                 <br/>
                             </li>

@@ -85,11 +85,8 @@ const Articles = () => {
                     <li className="sidebarTop">Selection</li>
                     {dropOptions.map(link => {
                         return(
-                            <li className={`item ${dropName==link.text ? " active" : ""}`} key={link.id}>
-                                <span
-                                    style={{marginRight:"15px"}}
-                                    onClick={() => selectDropDown(link.text)}
-                                >
+                            <li className={`item ${dropName==link.text ? " active" : ""}`} key={link.id} onClick={() => selectDropDown(link.text)}>
+                                <span style={{marginRight:"15px"}}>
                                     {link.text}
                                 </span>
                             </li>
