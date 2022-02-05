@@ -116,14 +116,12 @@ a {
   text-transform: none;
   font-weight: bold;
   font-size: 150%;
-  -webkit-text-stroke: 0.5px black;
   background-color: rgba(0, 0, 0, 0.9);
   padding-right: 10px;
   padding-left: 10px;
   max-width: 800px;
 
 }
-
 
 .gistWrapper {
   padding: 30px;
@@ -137,16 +135,18 @@ a {
 
 .gistTitle {
   text-align: center;
-  -webkit-text-stroke: 0.2px black;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 li {
   display: inline-block;
 }
 
+
 li svg {
   font-size: 50px;
   margin-top: 3px;
+  margin-right: 30px;
 }
 
 ul {
@@ -217,22 +217,21 @@ ul {
   text-align: center;
   justify-content: center;
   align-items: center;
-  background: transparent;
   -webkit-text-stroke: 2px black;
   font-size: 150%;
   padding-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+
 }
 
-.text {
+
+.AboutText {
   color: white;
   font-size: 100%;
-  background-size: 20px;
-  background-color: rgba(0, 0, 0, 0.5);
-  -webkit-text-stroke: 0.5px black;
+  -webkit-text-stroke: 0px black;
 }
 
 html {
-  background-repeat: no-repeat;
   background-position: center top -100px;
   background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('imgs/Bubzia Portrait comission.jpg');
   background-attachment: fixed;
@@ -242,12 +241,14 @@ html {
   background-size: cover;
 }
 
+
+
 .header {
   background: black;
   position: relative;
   border: black;
-  border-radius: 10px;
-  border-style: groove;
+  -webkit-text-stroke: 0.5px black;
+
 }
 
 .text {
@@ -255,13 +256,11 @@ html {
   font-size: 100%;
   background-size: 20px;
   background-color: rgba(0, 0, 0, 0.5);
-  -webkit-text-stroke: 0.5px black;
 }
 
 .cleanfont {
   color: white;
   font-size: 120%;
-  -webkit-text-stroke: 0.2px black;
   background-color: rgba(0, 0, 0, 0.8);
 
 }

@@ -44,7 +44,7 @@ const Homepage = () => {
                         </div>
                         <div className="aboutme">
                             <h1>About me</h1>
-                            <div className="text">
+                            <div className="AboutText">
                                 Blindfolded Speedrunner since July 2017, Moderator of the blindfolded speedrunning community, Twitch Partner.<br/><br/>
 
                                 My hobby consists of speedrunning many different games without looking by creating clever strategies and memorizing them.<br/>
@@ -55,7 +55,7 @@ const Homepage = () => {
 
                                 If you enjoy my content, please check out my social media accounts!<br/>
 
-                                <ul classname="homepagelinks">
+                                <ul classname="homepageLinks">
                                     <li><a  href="https://www.twitch.tv/bubzia" target="_blank" rel="noreferrer"><BsTwitch classname="icon"/></a><br/></li>
                                     <li><a  href="https://www.youtube.com/bubzia" target="_blank" rel="noreferrer"><BsYoutube classname="icon"/></a><br/></li>
                                     <li><a  href="https://twitter.com/Bubzia1" target="_blank" rel="noreferrer"><BsTwitter classname="icon"/></a><br/></li>
