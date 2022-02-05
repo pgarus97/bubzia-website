@@ -53,7 +53,8 @@ const Navbar = () => {
                 {links.map(link => {
                     return(
                       <li className="navButton" key={link.id}>
-                          <NavLink to={link.path}
+                      <NavLink          className="topbar"
+                                    to={link.path}
                                    activeClassName="active-link"
                                    exact>
                               {link.text}
