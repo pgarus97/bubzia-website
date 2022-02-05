@@ -11,3 +11,4 @@ convert input for marathon runs etc, in json format outside of source code
 
 active link on MEDIA - MARATHONS runs both
 
+redo all link css, affects links in markdown

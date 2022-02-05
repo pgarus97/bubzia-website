@@ -1,5 +1,5 @@
 import React, {useState} from "react"
-import ReactPlayer from "react-player";
+import Gist from "react-embed-gist"
 
 const Goals = () => {
 
@@ -173,46 +173,7 @@ const Goals = () => {
     //looping through links to get individual items
     return (
         <div className="marathoncenter">
-            <nav style={{ paddingLeft:"10%", position:"absolute", left:"-100px"}}>
-                <ul className={`marathonNav.showMenu"`}>
-                    <li className="sidebarTop">Selection</li>
-                    {dropOptions.map(link => {
-                        return(
-                            <li className={`item ${dropName==link.text ? " active" : ""}`} key={link.id}>
-                                <span
-                                    style={{marginRight:"15px"}}
-                                    onClick={() => selectDropDown(link.text)}
-                                >
-                                    {link.text}
-                                </span>
-                            </li>
-                        )
-                    })}
-                </ul>
-            </nav>
-            <ul className="mainplayers">
-                {links.map(link => {
-                    if (dropName === "All Games") {
-                        return(
-                            <li key={link.id}>
-                                <h4 className="cleanfont">{link.text}</h4>
-                                <ReactPlayer url={link.url} controls="true"/>
-                                <br/>
-                            </li>
-                        )
-                    }
-                    if (dropName === link.game){
-                        return(
-                            <li key={link.id}>
-                                <h4 className="cleanfont">{link.text}</h4>
-                                <ReactPlayer url={link.url} controls="true"/>
-                                <br/>
-                            </li>
-                        )
-                    }
-                    //TODO else case default in case of error?
-                })}
-            </ul>
+            <Gist gist="pgarus97/b95a4cd5e3749eaf5830e3087e4f3797" wrapperClass="gistWrapper" contentClass="gistContent" titleClass="gistTitle"/>
         </div>
     )
 }

@@ -91,6 +91,8 @@ body {
 
 }
 
+
+
 a {
   display: inline-block;
   color: dodgerblue;
@@ -101,6 +103,9 @@ a {
   text-transform: uppercase;
   font-weight: bold;
   background: transparent;
+}
+
+NavLink {
 
 }
 
@@ -118,6 +123,19 @@ a {
   padding-left: 10px;
   max-width: 800px;
 
+}
+
+.gistWrapper {
+  padding: 30px;
+}
+
+.gist .markdown-body {
+  background-color: #24292f;
+}
+
+.gistTitle {
+  text-align: center;
+  -webkit-text-stroke: 0.8px black;
 }
 
 li {
