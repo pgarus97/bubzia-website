@@ -7,12 +7,11 @@ const PersonalBests = () => {
     const dropOptions = [
         {
             id:1,
-            text:"All Games",
+            text:"Super Mario 64",
         },{
             id:2,
-            text:"Super Mario 64",
-        },
-        {
+            text:"Ocarina of Time",
+        },{
             id:3,
             text:"Smash 64",
         },{
@@ -38,7 +37,7 @@ const PersonalBests = () => {
         setDropName(name);
     }
 
-    const [dropName, setDropName] = useState("All Games");
+    const [dropName, setDropName] = useState("Super Mario 64");
 
 
     //can add more links if needed
@@ -167,11 +166,8 @@ const PersonalBests = () => {
                     <li className="sidebarTop">Selection</li>
                     {dropOptions.map(link => {
                         return(
-                            <li className={`item ${dropName==link.text ? " active" : ""}`} key={link.id}>
-                                <span
-                                    style={{marginRight:"15px"}}
-                                    onClick={() => selectDropDown(link.text)}
-                                >
+                            <li className={`item ${dropName==link.text ? " active" : ""}`} key={link.id} onClick={() => selectDropDown(link.text)}>
+                                <span style={{marginRight:"15px"}}>
                                     {link.text}
                                 </span>
                             </li>
@@ -181,15 +177,6 @@ const PersonalBests = () => {
             </nav>
             <ul className="mainplayers">
                 {links.map(link => {
-                    if (dropName === "All Games") {
-                        return(
-                            <li key={link.id}>
-                                <h4 className="cleanfont">{link.text}</h4>
-                                <ReactPlayer url={link.url} controls="true"/>
-                                <br/>
-                            </li>
-                        )
-                    }
                     if (dropName === link.game){
                         return(
                             <li key={link.id}>

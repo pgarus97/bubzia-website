@@ -8,28 +8,24 @@ const MarathonRuns = () => {
     const dropOptions = [
         {
             id:1,
-            text:"All Games",
+            text:"Super Mario 64",
         },{
             id:2,
-            text:"Super Mario 64",
-        },
-        {
-            id:3,
             text:"Smash 64",
         },{
-            id:4,
+            id:3,
             text:"Smash Melee",
         },{
-            id:5,
+            id:4,
             text:"Metroid: Fusion",
         },{
-            id:6,
+            id:5,
             text:"Metroid: Zero Mission",
         },{
-            id:7,
+            id:6,
             text:"Deltarune",
         },{
-            id:8,
+            id:7,
             text:"Rhythm Tengoku",
         },
 
@@ -50,7 +46,7 @@ const MarathonRuns = () => {
 
     //const [navbarOpen, setNavbarOpen] = useState(true);
 
-    const [dropName, setDropName] = useState("All Games");
+    const [dropName, setDropName] = useState("Super Mario 64");
 
 
     //can add more links if needed
@@ -179,11 +175,8 @@ const MarathonRuns = () => {
                     <li className="sidebarTop">Selection</li>
                     {dropOptions.map(link => {
                         return(
-                            <li className={`item ${dropName==link.text ? " active" : ""}`} key={link.id}>
-                                <span
-                                    style={{marginRight:"15px"}}
-                                    onClick={() => selectDropDown(link.text)}
-                                >
+                            <li className={`item ${dropName==link.text ? " active" : ""}`} key={link.id} onClick={() => selectDropDown(link.text)}>
+                                <span style={{marginRight:"15px"}}>
                                     {link.text}
                                 </span>
                             </li>
@@ -193,15 +186,6 @@ const MarathonRuns = () => {
             </nav>
             <ul className="mainplayers">
                 {links.map(link => {
-                    if (dropName === "All Games") {
-                        return(
-                            <li key={link.id}>
-                                <h4 className="cleanfont">{link.text}</h4>
-                                <ReactPlayer url={link.url} controls="true"/>
-                                <br/>
-                            </li>
-                        )
-                    }
                     if (dropName === link.game){
                         return(
                             <li key={link.id}>
