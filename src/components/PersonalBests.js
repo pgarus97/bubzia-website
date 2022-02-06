@@ -195,6 +195,60 @@ const PersonalBests = () => {
             text:"Blindfolded Ib - Promise of Reunion",
             time:"54:40",
             game: "Ib",
+        },{
+            id:26,
+            url: "https://www.youtube.com/watch?v=YOTWE9aEmtc",
+            text:"Blindfolded Kingdom Hearts 1 - any% Beginner",
+            time:"7:56:39",
+            game: "Kingdom Hearts",
+        },{
+            id:27,
+            url: "https://www.youtube.com/watch?v=s14ZFFBgopQ",
+            text:"Blindfolded Metroid: Fusion - any%",
+            time:"2:00:05",
+            game: "Metroid",
+        },{
+            id:28,
+            url: "https://www.youtube.com/watch?v=y-FLd9_J6BM",
+            text:"Blindfolded A Link to the Past - any%",
+            time:"3:40",
+            game: "Zelda",
+        },{
+            id:29,
+            url: "https://www.youtube.com/watch?v=gRkmmTbE2Go",
+            text:"Blindfolded Metroid: Zero Mission - 100%",
+            time:"3:11:42",
+            game: "Metroid",
+        },{
+            id:30,
+            url: "https://www.youtube.com/watch?v=ryV7JeqFrV4",
+            text:"Blindfolded Wario Land 2 - any% Glitchless",
+            time:"16:00",
+            game: "Wario Land 2",
+        },{
+            id:31,
+            url: "https://www.youtube.com/watch?v=oMc0oANwUnY",
+            text:"Blindfolded Pokemon Yellow - any%",
+            time:"1:57",
+            game: "Pokemon",
+        },{
+            id:32,
+            url: "https://www.youtube.com/watch?v=iWYqV0VJomk",
+            text:"Blindfolded Kingdom Hearts 3 - Olymp%",
+            time:"1:03:32",
+            game: "Kingdom Hearts",
+        },{
+            id:33,
+            url: "https://www.youtube.com/watch?v=x4Ikd6V4Hes",
+            text:"Blindfolded Wii Sports - Golf: 9 Holes",
+            time:"9:07",
+            game: "Wii Sports",
+        },{
+            id:34,
+            url: "https://www.youtube.com/watch?v=BuNhoeHily4",
+            text:"Blindfolded Asura's Wrath - New Game Easy",
+            time:"2:59:31",
+            game: "Asura's Wrath",
         }
     ]
 
