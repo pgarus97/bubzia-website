@@ -1,11 +1,10 @@
 import React from "react"
-import PayPalImage from "../imgs/Paypalimage.jpg";
 import ReactPlayer from "react-player";
 
 const Youtube = () => {
     return (
         <>
-        <div className="Supporttext" style={{position:"center"}}>
+        <div className="SupporttextHeader" style={{position:"center"}}>
             <br/>Here are a few example playlists of the Youtube-Content that I am producing!
         </div>
         <div className={"leftcenter"}>

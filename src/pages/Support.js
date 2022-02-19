@@ -6,7 +6,7 @@ import PayPalImage from "../imgs/Paypalimage.jpg";
 const Support = () => {
     return (
         <>
-            <div className="Supporttext">
+            <div className="SupporttextHeader">
             <br/>There are many ways you can support my channel and future blindfolded speedruns!
             </div>
             <div className={"leftcenter"}>
