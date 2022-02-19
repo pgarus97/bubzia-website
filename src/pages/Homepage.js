@@ -51,7 +51,7 @@ const Homepage = () => {
                                 I livestream all of my practice and runs on Twitch and produce various Youtube videos about this hobby.<br/>
                                 Furthermore, I love to participate in many speedrun marathons all around the world to showcase blindfolded speedrunning and open it up to the public!<br/><br/>
 
-                                Stream-Schedule: Monday, Tuesday, Thursday, Friday ~ 1pm-5pm CET<br/><br/>
+                                Stream-Schedule: Monday-Friday ~ 1:30pm-5pm CET<br/><br/>
 
                                 If you enjoy my content, please check out my social media accounts!<br/>
 

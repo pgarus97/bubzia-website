@@ -196,6 +196,16 @@ a.active-link {
   background: transparent;
 }
 
+.leftcenter {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  margin: 2% auto;
+  background: transparent;
+  padding-left: 20px;
+}
+
 .marathoncenter {
   flex-direction: row;
   justify-content: center;
@@ -267,6 +277,14 @@ html {
   font-size: 100%;
   background-size: 20px;
   background-color: rgba(0, 0, 0, 0.5);
+  -webkit-text-stroke: 0px black;
+
+}
+
+.Supporttext {
+  color: white;
+  font-size: 180%;
+  margin-left: 15px;
   -webkit-text-stroke: 0px black;
 
 }
