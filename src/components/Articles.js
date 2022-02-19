@@ -1,18 +1,17 @@
 import React , {useState} from "react";
-import ReactPlayer from "react-player";
-import SpotifyPlayer from "react-spotify-player";
+import {v4 as uuidv4} from "uuid";
 
 const Articles = () => {
     //can add more links if needed
     const dropOptions = [
         {
-            id:1,
+            id:uuidv4(),
             text:"All Articles",
         },{
-            id:2,
+            id:uuidv4(),
             text:"Interview",
         },{
-            id:3,
+            id:uuidv4(),
             text:"News",
         }
     ]
@@ -26,7 +25,7 @@ const Articles = () => {
     //can add more links if needed
     const links = [
         {
-            id:1,
+            id:uuidv4(),
             url:"https://news.yahoo.co.jp/articles/d3093a04fb0856cbde8d014c619ddf6b4275447b",
             text:"『スーパーマリオ64』を「目隠し」でクリアするRTAが話題に。「RTA in Japan Winter 2021」で記憶と耳だけを頼りに攻略していく驚異的なタイムアタックが披露される",
             publisher:"www.news.yahoo.co.jp",
@@ -34,7 +33,7 @@ const Articles = () => {
             type:"News"
 
         },{
-            id:2,
+            id:uuidv4(),
             url:"https://www.thegamer.com/super-mario-64-speedrun-blindfold/",
             text:"Speedrunner Beats Super Mario 64 In 24 Minutes While Blindfolded",
             publisher:"www.thegamer.com",
@@ -42,7 +41,7 @@ const Articles = () => {
             type:"News"
 
         },{
-            id:3,
+            id:uuidv4(),
             url:"https://www.thegamer.com/super-mario-64-blindfolded-speedrun/",
             text:"YouTuber Beats Mario 64 In Under Two Hours While Blindfolded",
             publisher:"www.thegamer.com",
@@ -50,7 +49,7 @@ const Articles = () => {
             type:"News"
 
         },{
-            id:4,
+            id:uuidv4(),
             url:"https://www.fanbyte.com/features/a-speedrunners-quest-to-perfect-super-mario-64-blindfolded/",
             text:"A Speedrunner’s Quest to Perfect Super Mario 64 Blindfolded",
             publisher:"www.fanbyte.com",
@@ -58,7 +57,7 @@ const Articles = () => {
             type:"Interview"
         },
         {
-            id:5,
+            id:uuidv4(),
             url:"https://www.thegamer.com/speedrunner-super-mario-64-blindfolded-39-minutes/",
             text:"Speedrunner Beats Super Mario 64 Blindfolded In Just 39 Minutes",
             publisher:"www.thegamer.com",
@@ -66,7 +65,7 @@ const Articles = () => {
             type:"News"
         },
         {
-            id:6,
+            id:uuidv4(),
             url:"https://www.shacknews.com/article/119738/summer-games-done-quick-2020-interview-bubzia-and-super-smash-bros-64-blindfolded",
             text:"Summer Games Done Quick 2020, Interview: Bubzia and Super Smash Bros. 64 Blindfolded",
             publisher:"www.shacknews.com",
@@ -85,7 +84,7 @@ const Articles = () => {
                     <li className="sidebarTop">Selection</li>
                     {dropOptions.map(link => {
                         return(
-                            <li className={`item ${dropName==link.text ? " active" : ""}`} key={link.id} onClick={() => selectDropDown(link.text)}>
+                            <li className={`item ${dropName===link.text ? " active" : ""}`} key={link.id} onClick={() => selectDropDown(link.text)}>
                                 <span style={{marginRight:"15px"}}>
                                     {link.text}
                                 </span>

@@ -1,48 +1,47 @@
 import React, {useState} from "react"
-import SRbar from "../components/SRbar";
 import {Route, useRouteMatch,Switch, Link} from "react-router-dom";
-import PersonalBests from "../components/PersonalBests";
-import Goals from "../components/Goals";
 import StratPage from "../components/StratPage";
+import { v4 as uuidv4 } from "uuid";
+
 
 const Strats = () => {
     const { url, path } = useRouteMatch()
 
     const dropOptions = [
         {
-            id:1,
+            id:uuidv4(),
             text:"Super Mario 64",
             handle:"sm64",
         },{
-            id:2,
+            id:uuidv4(),
             text:"SM64 Romhacks",
             handle:"sm64hacks",
         },{
-            id:3,
+            id:uuidv4(),
             text:"Smash 64",
             handle:"smash64",
         },{
-            id:4,
+            id:uuidv4(),
             text:"Smash Melee",
             handle:"melee",
         },{
-            id:5,
+            id:uuidv4(),
             text:"Metroid: Fusion",
             handle:"fusion",
         },{
-            id:6,
+            id:uuidv4(),
             text:"Metroid: Zero Mission",
             handle:"zm",
         },{
-            id:7,
+            id:uuidv4(),
             text:"Ocarina of Time",
             handle:"oot",
         },{
-            id:8,
+            id:uuidv4(),
             text:"Deltarune",
             handle:"deltarune",
         },{
-            id:9,
+            id:uuidv4(),
             text:"Rhythm Tengoku",
             handle:"tengoku",
         },
@@ -63,7 +62,7 @@ const Strats = () => {
                     <li className="sidebarTop">Selection</li>
                         {dropOptions.map(link => {
                             return(
-                        <li className={`item ${dropName==link.text ? " active" : ""}`} key={link.id} onClick={() => selectDropDown(link.text)}>
+                        <li className={`item ${dropName===link.text ? " active" : ""}`} key={link.id} onClick={() => selectDropDown(link.text)}>
                                 <Link to={`${url}/${link.handle}`} style={{marginRight:"15px"}}>
                                     {link.text}
                                 </Link>

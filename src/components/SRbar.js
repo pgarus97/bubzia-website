@@ -1,17 +1,18 @@
 import React from "react";
 import { NavLink } from "react-router-dom"
+import {v4 as uuidv4} from "uuid";
 
 
 const SRbar = () => {
     //can add more links if needed
     const links = [
         {
-            id:1,
-            path: "/speedrun/pbs",
+            id:uuidv4(),
+            path: "/speedrun",
             text:"Personal Bests",
         },
         {
-            id:2,
+            id:uuidv4(),
             path: "/speedrun/goals",
             text:"Goals",
         }

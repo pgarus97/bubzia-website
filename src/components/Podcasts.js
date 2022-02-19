@@ -1,6 +1,7 @@
 import React , {useState} from "react";
 import ReactPlayer from "react-player";
 import SpotifyPlayer from 'react-spotify-player';
+import {v4 as uuidv4} from "uuid";
 
 // size may also be a plain string using the presets 'large' or 'compact'
 const size = {
@@ -21,14 +22,14 @@ const Podcasts = () => {
     //can add more links if needed
     const dropOptions = [
         {
-            id:1,
+            id:uuidv4(),
             text:"All Podcasts",
         },{
-            id:2,
+            id:uuidv4(),
             text:"Youtube",
         },
         {
-            id:3,
+            id:uuidv4(),
             text:"Spotify",
         }
     ]
@@ -36,24 +37,25 @@ const Podcasts = () => {
     //can add more links if needed
     const links = [
         {
-            id:1,
+            id:uuidv4(),
             url: "https://www.youtube.com/watch?v=RUfM7IWu3pQ",
             text:"OverBoost #50 Podcast",
             format: "Youtube"
-        },{
-            id:2,
+        },
+        {
+            id:uuidv4(),
             url:"https://www.youtube.com/watch?v=pfUw8S5z6oY",
             text:"Zack!!! Podcast (German)",
             format: "Youtube"
         },
         {
-            id:3,
+            id:uuidv4(),
             url: "https://open.spotify.com/episode/6quiILqLiHAC1UssK0U4ji?si=oSOmUZzxTJmwRgAMpev69A",
             text:"InsertMoin Podcast (German)",
             format: "Spotify"
         },
         {
-            id:4,
+            id:uuidv4(),
             url: "https://open.spotify.com/episode/2PLQSNwJ4tORJaw4n9UqZy?si=qUj6zLCUSJasp1XG5cTy8Q",
             text:"Super Gamer Podcast 74",
             format: "Spotify"
@@ -70,7 +72,7 @@ const Podcasts = () => {
                     <li className="sidebarTop">Selection</li>
                     {dropOptions.map(link => {
                         return(
-                            <li className={`item ${dropName==link.text ? " active" : ""}`} key={link.id} onClick={() => selectDropDown(link.text)}>
+                            <li className={`item ${dropName===link.text ? " active" : ""}`} key={link.id} onClick={() => selectDropDown(link.text)}>
                                 <span style={{marginRight:"15px"}}>
                                     {link.text}
                                 </span>

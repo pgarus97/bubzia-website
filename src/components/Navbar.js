@@ -1,5 +1,6 @@
-import React , {useState} from "react";
+import React from "react";
 import { NavLink } from "react-router-dom"
+import {v4 as uuidv4} from "uuid";
 
 
 
@@ -8,37 +9,37 @@ const Navbar = () => {
     //can add more links if needed
     const links = [
         {
-            id:1,
+            id:uuidv4(),
             path: "/",
             text:"Home",
         },
         {
-            id:2,
-            path: "/speedrun/pbs",
+            id:uuidv4(),
+            path: "/speedrun",
             text:"Speedruns",
         },
-        {
-            id:3,
+        /*{
+            id:uuidv4(),
             path: "/strats",
             text:"Strats",
-        },
+        },*/
         {
-            id:4,
+            id:uuidv4(),
             path: "/twitch",
             text:"Twitch",
         },
         {
-            id:5,
+            id:uuidv4(),
             path: "/youtube",
             text:"Youtube",
         },
         {
-            id:6,
-            path: "/media/marathons",
+            id:uuidv4(),
+            path: "/media",
             text:"Media",
         },
         {
-            id:7,
+            id:uuidv4(),
             path: "/support",
             text:"Support",
         }
@@ -55,7 +56,7 @@ const Navbar = () => {
                       <li className="navButton" key={link.id}>
                       <NavLink     className="topbar"
                                    to={link.path}
-                                   activeClassName={`${link.path=="/" ? "" : "active-link"}`}
+                                   activeClassName={`${link.path==="/" ? "" : "active-link"}`}
                                    >
                               {link.text}
                           </NavLink>

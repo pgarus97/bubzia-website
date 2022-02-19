@@ -1,22 +1,23 @@
 import React from "react";
 import { NavLink } from "react-router-dom"
+import {v4 as uuidv4} from "uuid";
 
 
 const Mediabar = () => {
     //can add more links if needed
     const links = [
         {
-            id:1,
-            path: "/media/marathons",
+            id:uuidv4(),
+            path: "/media",
             text:"Marathon Runs",
         },
         {
-            id:2,
+            id:uuidv4(),
             path: "/media/podcasts",
             text:"Podcasts",
         },
         {
-            id:3,
+            id:uuidv4(),
             path: "/media/articles",
             text:"Articles",
         }
