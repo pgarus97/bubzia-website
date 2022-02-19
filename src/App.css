@@ -286,12 +286,13 @@ html {
   color: white;
   font-size: 180%;
   margin-left: 15px;
-  -webkit-text-stroke: 0px black;
+  -webkit-text-stroke: 0.3px black;
 
 }
 
 .cleanfont {
   color: white;
   font-size: 120%;
+  -webkit-text-stroke: 0.2px black;
 
 }

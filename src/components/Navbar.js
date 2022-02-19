@@ -22,12 +22,12 @@ const Navbar = () => {
             id:uuidv4(),
             path: "/strats",
             text:"Strats",
-        },*/
+        },
         {
             id:uuidv4(),
             path: "/twitch",
             text:"Twitch",
-        },
+        },*/
         {
             id:uuidv4(),
             path: "/youtube",

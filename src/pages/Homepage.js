@@ -37,8 +37,8 @@ const Homepage = () => {
                             </div>
                             <div className="mainplayers">
                                 <h1>Most recent Youtube Video:</h1>
-                                <iframe width="620" height="360" playing={true}
-                                        src="http://www.youtube.com/embed/videoseries?list=UUZVaxoDFZkOhTw3MDG8V8dQ"
+                                <iframe title={"YT"} width="620" height="360" playing={true}
+                                        src="https://www.youtube.com/embed/videoseries?list=UUZVaxoDFZkOhTw3MDG8V8dQ"
                                         frameBorder="0" allowFullScreen></iframe>
                             </div>
                         </div>
@@ -64,7 +64,7 @@ const Homepage = () => {
                                     <li><a  href="https://discord.gg/D7yTBaXxTW" target="_blank" rel="noreferrer"><BsDiscord classname="icon"/></a><br/></li>
                                 </ul>
 
-                                For Business-Inquiries: <a href="mailto:yazek.twitch@gmail.com" target="_blank">yazek.twitch@gmail.com</a><br/>
+                                For Business-Inquiries: <a href="mailto:yazek.twitch@gmail.com" target="_blank" rel="noreferrer">yazek.twitch@gmail.com</a><br/>
                             </div>
                         </div>
                 </Route>

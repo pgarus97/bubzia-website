@@ -2,7 +2,7 @@
 
 Homepage: stream embed live or last broadcast, schedule, info , upcoming events
 
-Twitch: available emotes, schedule , descriptions of redemptions, current projects, commands(?)
+Twitch: available emotes, schedule , descriptions of redemptions, current projects, commands(?) in navbar?
 
 Youtube: showcase different YT Playlist and series + descriptions (blindfolded speedruns list, BNS, SM64 Tutorial Series etc.)
 
