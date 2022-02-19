@@ -17,6 +17,10 @@ const Navbar = () => {
             id:uuidv4(),
             path: "/speedrun",
             text:"Speedruns",
+        },{
+            id:uuidv4(),
+            path: "/media",
+            text:"Media",
         },
         /*{
             id:uuidv4(),
@@ -35,8 +39,8 @@ const Navbar = () => {
         },
         {
             id:uuidv4(),
-            path: "/media",
-            text:"Media",
+            path: "/goals",
+            text:"Goals",
         },
         {
             id:uuidv4(),

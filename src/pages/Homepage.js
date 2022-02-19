@@ -9,6 +9,7 @@ import Media from "./Media";
 import Support from "./Support";
 import Contact from "./Contact";
 import TopHeader from "../components/TopHeader";
+import Goals from "../components/Goals";
 
 import ReactPlayer from "react-player";
 import {Route, Switch} from "react-router-dom";
@@ -73,6 +74,9 @@ const Homepage = () => {
                 </Route>
                 <Route path="/strats">
                     <Strats />
+                </Route>
+                <Route path="/goals">
+                <Goals />
                 </Route>
                 <Route path="/twitch">
                     <Twitch />
