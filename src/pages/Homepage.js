@@ -47,11 +47,12 @@ const Homepage = () => {
                             <div className="AboutText">
                                 Blindfolded Speedrunner since July 2017, Moderator of the blindfolded speedrunning community, Twitch Partner.<br/><br/>
 
-                                My hobby consists of speedrunning many different games without looking by creating clever strategies and memorizing them.<br/>
-                                I livestream all of my practice and runs on Twitch and produce various Youtube videos about this hobby.<br/>
-                                Furthermore, I love to participate in many speedrun marathons all around the world to showcase blindfolded speedrunning and open it up to the public!<br/><br/>
+                                My hobby consists of speedrunning many different games without looking by creating consistent strategies and memorizing them.<br/>
+                                I love to participate at many marathons to open up blindfolded speedrunning further to the public.  <br/><br/>
 
-                                Stream-Schedule: Monday-Friday ~ 1:30pm-5pm CET<br/><br/>
+
+                                <h3>Stream-Schedule: </h3>
+                                Monday-Friday ~ 1:30pm-5pm CET<br/><br/>
 
                                 If you enjoy my content, please check out my social media accounts!<br/>
 

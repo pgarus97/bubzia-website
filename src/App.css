@@ -192,7 +192,7 @@ a.active-link {
   justify-content: center;
   align-items: center;
   max-width: 600px;
-  margin: 5% auto;
+  margin: 2% auto;
   background: transparent;
 }
 
@@ -204,6 +204,7 @@ a.active-link {
   margin: 2% auto;
   background: transparent;
   padding-left: 20px;
+  margin-bottom: 6px;
 }
 
 .marathoncenter {
@@ -235,13 +236,13 @@ a.active-link {
 }
 
 .aboutme {
-  margin-top: 3%;
+  margin-top: 2%;
   text-align: center;
   justify-content: center;
   align-items: center;
   -webkit-text-stroke: 2px black;
   font-size: 150%;
-  padding-bottom: 0;
+  padding-bottom: 3px;
   background-color: rgba(0, 0, 0, 0.5);
 
 }
