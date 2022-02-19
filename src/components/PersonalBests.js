@@ -14,25 +14,31 @@ const PersonalBests = () => {
             text:"SM64 Romhacks",
         },{
             id:uuidv4(),
-            text:"Smash 64",
+            text:"Smash Bros.",
         },{
             id:uuidv4(),
-            text:"Smash Melee",
+            text:"Metroid",
         },{
             id:uuidv4(),
-            text:"Metroid: Fusion",
+            text:"Zelda",
         },{
             id:uuidv4(),
-            text:"Metroid: Zero Mission",
+            text:"Pokemon",
         },{
             id:uuidv4(),
-            text:"Ocarina of Time",
+            text:"Nier Automata",
+        },{
+            id:uuidv4(),
+            text:"Kingdom Hearts",
         },{
             id:uuidv4(),
             text:"Deltarune",
         },{
             id:uuidv4(),
-            text:"Rhythm Tengoku",
+            text:"Xbox 360",
+        },{
+            id:uuidv4(),
+            text:"Gameboy Advance",
         },
 
     ]
@@ -94,7 +100,7 @@ const PersonalBests = () => {
             url: "https://www.youtube.com/watch?v=jo5GFKFEBv4",
             text:"Blindfolded Smash 64 - Break the Targets (All Characters)",
             time:"6:20",
-            game: "Smash 64",
+            game: "Smash Bros.",
         },{
             id:uuidv4(),
             url: "https://www.youtube.com/watch?v=Bzt44ZglQ6M",
@@ -124,13 +130,13 @@ const PersonalBests = () => {
             url: "https://www.youtube.com/watch?v=dqY8pJwVjgQ",
             text:"Blindfolded Rhythm Tengoku - any%",
             time:"1:04:40",
-            game: "Rhythm Tengoku",
+            game: "Gameboy Advance",
         },{
             id:uuidv4(),
             url: "https://www.youtube.com/watch?v=0zSqp5e9kl0",
             text:"Blindfolded Smash Melee - Adventure Mode",
             time:"8:51",
-            game: "Smash Melee",
+            game: "Smash Bros.",
         },{
             id:uuidv4(),
             url: "https://www.youtube.com/watch?v=zJxHLySbNEk",
@@ -184,19 +190,19 @@ const PersonalBests = () => {
             url: "https://www.youtube.com/watch?v=QhUTKnTu6zA",
             text:"Blindfolded Final Fantasy 3 - any%",
             time:"8:01",
-            game:"Final Fantasy",
+            game:"NES",
         },{
             id:uuidv4(),
             url: "https://www.youtube.com/watch?v=wUVNP3vrIbw",
             text:"Blindfolded Smash 64 - Classic Mode",
             time:"12:32",
-            game:"Smash 64",
+            game:"Smash Bros.",
         },{
             id:uuidv4(),
             url: "https://www.youtube.com/watch?v=oZdXeHtjNoI",
             text:"Blindfolded Ib - Promise of Reunion",
             time:"54:40",
-            game: "Ib",
+            game: "PC",
         },{
             id:uuidv4(),
             url: "https://www.youtube.com/watch?v=YOTWE9aEmtc",
@@ -226,7 +232,7 @@ const PersonalBests = () => {
             url: "https://www.youtube.com/watch?v=ryV7JeqFrV4",
             text:"Blindfolded Wario Land 2 - any% Glitchless",
             time:"16:00",
-            game: "Wario Land 2",
+            game: "Gameboy",
         },{
             id:uuidv4(),
             url: "https://www.youtube.com/watch?v=oMc0oANwUnY",
@@ -244,14 +250,164 @@ const PersonalBests = () => {
             url: "https://www.youtube.com/watch?v=x4Ikd6V4Hes",
             text:"Blindfolded Wii Sports - Golf: 9 Holes",
             time:"9:07",
-            game: "Wii Sports",
+            game: "Wii",
         },{
             id:uuidv4(),
             url: "https://www.youtube.com/watch?v=BuNhoeHily4",
             text:"Blindfolded Asura's Wrath - New Game Easy",
             time:"2:59:31",
-            game: "Asura's Wrath",
-        }
+            game: "Xbox 360",
+        },{
+            id:uuidv4(),
+            url: "https://www.youtube.com/watch?v=Dr28GwRzzaM",
+            text:"Blindfolded Nier Automata - [A] Ending (Normal)",
+            time:"3:11:22",
+            game:"Nier Automata",
+        },{
+            id:uuidv4(),
+            url: "https://www.youtube.com/watch?v=rcu6dB66jjo",
+            text:"Blindfolded Nier Automata - Mac[K]erel",
+            time:"24:52",
+            game:"Nier Automata",
+        },{
+            id:uuidv4(),
+            url: "https://www.youtube.com/watch?v=EHtHDzbfPX4",
+            text:"Blindfolded Sailor Moon - Easy% Venus",
+            time:"8:32",
+            game:"SNES",
+        },{
+            id:uuidv4(),
+            url: "https://www.youtube.com/watch?v=bExGtiQB1AU",
+            text:"Blindfolded Survival Kids - Ending 3",
+            time:"3:37",
+            game:"Gameboy",
+        },{
+            id:uuidv4(),
+            url: "https://www.youtube.com/watch?v=CxloIkJBjY4",
+            text:"Blindfolded Super Tetris 2: Bombliss - Puzzle 0-20",
+            time:"5:30",
+            game:"SNES",
+        },{
+            id:uuidv4(),
+            url: "https://www.youtube.com/watch?v=3E4cQHn-ofc",
+            text:"Blindfolded Harvest Moon - any%",
+            time:"2:25",
+            game:"SNES",
+        },{
+            id:uuidv4(),
+            url: "https://www.youtube.com/watch?v=fKndR_8_s8Y",
+            text:"Blindfolded Yoshi's Cookie - Round 1",
+            time:"3:15",
+            game:"SNES",
+        },{
+            id:uuidv4(),
+            url: "https://www.youtube.com/watch?v=I1dtwwmOZuI",
+            text:"Blindfolded Barnie's Hide & Seek - any% No Controller",
+            time:"9:37",
+            game:"Other",
+        },{
+            id:uuidv4(),
+            url: "https://www.youtube.com/watch?v=qk3vBWumWCA",
+            text:"Blindfolded Metroid (NES) - Softlock%",
+            time:"35.72",
+            game:"Metroid",
+        },{
+            id:uuidv4(),
+            url: "https://www.youtube.com/watch?v=c7RrK4oG_IE",
+            text:"Blindfolded Ocarina of Time - Dank%",
+            time:"25:03",
+            game:"Zelda",
+        },{
+            id:uuidv4(),
+            url: "https://www.youtube.com/watch?v=cet6EpZ2WEc",
+            text:"Blindfolded Soul Calibur 4 - Arcade",
+            time:"7:17",
+            game:"Soul Calibur",
+        },{
+            id:uuidv4(),
+            url: "https://www.youtube.com/watch?v=3zs7T4pvpgk",
+            text:"Blindfolded Soul Calibur 4 - Story (Kilik)",
+            time:"3:55",
+            game:"Soul Calibur",
+        },{
+            id:uuidv4(),
+            url: "https://www.youtube.com/watch?v=m134XmtYAPE",
+            text:"Blindfolded Soul Calibur 4 - Story (Original Kilik)",
+            time:"5:38",
+            game:"Soul Calibur",
+        },{
+            id:uuidv4(),
+            url: "https://www.youtube.com/watch?v=wdz538DO9lM",
+            text:"Blindfolded Soul Calibur 4 - Story (Hard, Altered Kilik)",
+            time:"5:55",
+            game:"Soul Calibur",
+        },{
+            id:uuidv4(),
+            url: "https://www.youtube.com/watch?v=fyyQBevLwf4",
+            text:"Blindfolded Nier Automata - Prologue",
+            time:"18:39",
+            game:"Nier Automata",
+        },{
+            id:uuidv4(),
+            url: "https://www.youtube.com/watch?v=9hK57befoHk",
+            text:"Blindfolded Smash 64 - 3x Break the Targets (All Characters) ",
+            time:"20:57",
+            game:"Smash Bros.",
+        },{
+            id:uuidv4(),
+            url: "https://www.youtube.com/watch?v=82bKQEHnRsc",
+            text:"Blindfolded SM64 Sapphire - 0 Star",
+            time:"9:39",
+            game:"SM64 Romhacks",
+        },{
+            id:uuidv4(),
+            url: "https://www.youtube.com/watch?v=u12SO_t_bkg",
+            text:"Blindfolded Nier Automata - Che[A]tcode%",
+            time:"8:52",
+            game:"Nier Automata",
+        },{
+            id:uuidv4(),
+            url: "https://www.youtube.com/watch?v=pBwvrY3jyqo",
+            text:"Blindfolded Kirby 64 - Cheatcode any%",
+            time:"5:22",
+            game:"Other",
+        },{
+            id:uuidv4(),
+            url: "https://www.youtube.com/watch?v=bcEWYMwK4VI",
+            text:"Blindfolded The Witness - Secret Ending",
+            time:"5:56",
+            game:"Other",
+        },{
+            id:uuidv4(),
+            url: "https://www.youtube.com/watch?v=cLT0l-w_HgU",
+            text:"Blindfolded Helltaker - Puzzle%",
+            time:"3:05",
+            game:"PC",
+        },{
+            id:uuidv4(),
+            url: "https://www.youtube.com/watch?v=SBsiWLqHNh0",
+            text:"Blindfolded Soul Calibur 2 - Arcade",
+            time:"1:20.85",
+            game:"Soul Calibur",
+        },{
+            id:uuidv4(),
+            url: "https://www.youtube.com/watch?v=WPmhUPCm5C4",
+            text:"Blindfolded Dead or Alive 2 - Story Mode",
+            time:"12:27",
+            game:"Other",
+        },{
+            id:uuidv4(),
+            url: "https://www.youtube.com/watch?v=dy9uRF0Q5q8",
+            text:"Blindfolded SM64 - Ztar Attack Rebooted - Luke Saward%",
+            time:"3:51",
+            game:"SM64 Romhacks",
+        },{
+            id:uuidv4(),
+            url: "https://www.youtube.com/watch?v=PFxsrxR30ts",
+            text:"Blindfolded Sailor Moon R - Easy%",
+            time:"10:30",
+            game:"SNES",
+        },
     ]
 
     //looping through links to get individual items
