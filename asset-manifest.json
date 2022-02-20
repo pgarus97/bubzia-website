@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/bubzia-website/static/css/main.6ce1b44f.css",
+    "main.js": "/bubzia-website/static/js/main.5f0276a8.js",
+    "static/js/787.5cf0ca54.chunk.js": "/bubzia-website/static/js/787.5cf0ca54.chunk.js",
+    "static/media/Bubzia Portrait comission.jpg": "/bubzia-website/static/media/Bubzia Portrait comission.e71320be22402f87ef38.jpg",
+    "static/media/Twitchimage.jpeg": "/bubzia-website/static/media/Twitchimage.6d971a87e50ae613e700.jpeg",
+    "static/media/Paypalimage.jpg": "/bubzia-website/static/media/Paypalimage.aacdd11ee6419cac9580.jpg",
+    "static/media/patreonlogo.png": "/bubzia-website/static/media/patreonlogo.71383c83166e09632843.png",
+    "static/media/logo.svg": "/bubzia-website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/bubzia-website/index.html",
+    "main.6ce1b44f.css.map": "/bubzia-website/static/css/main.6ce1b44f.css.map",
+    "main.5f0276a8.js.map": "/bubzia-website/static/js/main.5f0276a8.js.map",
+    "787.5cf0ca54.chunk.js.map": "/bubzia-website/static/js/787.5cf0ca54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ce1b44f.css",
+    "static/js/main.5f0276a8.js"
+  ]
+}
