@@ -39,13 +39,23 @@ const Podcasts = () => {
         {
             id:uuidv4(),
             url: "https://www.youtube.com/watch?v=RUfM7IWu3pQ",
-            text:"OverBoost #50 Podcast",
+            text:"OverBoost #50 Podcast 2021",
             format: "Youtube"
         },
         {
             id:uuidv4(),
             url:"https://www.youtube.com/watch?v=pfUw8S5z6oY",
-            text:"Zack!!! Podcast (German)",
+            text:"Zack!!! Podcast (German) 2021",
+            format: "Youtube"
+        },{
+            id:uuidv4(),
+            url:"https://www.youtube.com/watch?v=aIZ1qUeI_-w",
+            text:"Quick Questions with Bubzia 2021",
+            format: "Youtube"
+        },{
+            id:uuidv4(),
+            url:"https://www.youtube.com/watch?v=XlZvKKmoMjo",
+            text:"ChatswithSpencer Podcast 2021",
             format: "Youtube"
         },
         {
